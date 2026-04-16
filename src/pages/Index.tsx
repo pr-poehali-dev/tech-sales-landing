@@ -204,7 +204,7 @@ const Index = () => {
           </div>
           <div className="relative animate-fade-in">
             <div className="aspect-square rounded-2xl overflow-hidden bg-secondary">
-              <img src={HERO_IMG} alt="Техника" className="w-full h-full object-cover" />
+              <img src={IMG_HEADPHONES} alt="Техника" className="w-full h-full object-cover" />
             </div>
             <div className="absolute -bottom-4 -left-4 bg-white border border-border rounded-xl px-5 py-4 shadow-sm">
               <p className="font-mono text-xs text-muted-foreground mb-1">Товаров в каталоге</p>
