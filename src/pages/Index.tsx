@@ -1,7 +1,12 @@
 import { useState } from "react";
 import Icon from "@/components/ui/icon";
 
-const HERO_IMG = "https://cdn.poehali.dev/projects/f47cf333-e36c-451b-9f5c-3e5bfbadb8ab/files/e22ce77a-320c-4eb4-8356-efd049c4c01c.jpg";
+const IMG_HEADPHONES = "https://cdn.poehali.dev/projects/f47cf333-e36c-451b-9f5c-3e5bfbadb8ab/files/e22ce77a-320c-4eb4-8356-efd049c4c01c.jpg";
+const IMG_LAPTOP     = "https://cdn.poehali.dev/projects/f47cf333-e36c-451b-9f5c-3e5bfbadb8ab/files/76b222af-a86b-4438-b19e-9bb4a921b088.jpg";
+const IMG_PHONE      = "https://cdn.poehali.dev/projects/f47cf333-e36c-451b-9f5c-3e5bfbadb8ab/files/990ab29b-28bb-41c2-a177-b78b7031d78b.jpg";
+const IMG_TABLET     = "https://cdn.poehali.dev/projects/f47cf333-e36c-451b-9f5c-3e5bfbadb8ab/files/d5d9cfc1-845b-4d81-8e79-d3bb2293fd26.jpg";
+const IMG_MOUSE      = "https://cdn.poehali.dev/projects/f47cf333-e36c-451b-9f5c-3e5bfbadb8ab/files/a2435849-77a8-48f5-b4f5-23f715945a98.jpg";
+const IMG_MONITOR    = "https://cdn.poehali.dev/projects/f47cf333-e36c-451b-9f5c-3e5bfbadb8ab/files/a879a069-e841-4ef9-8d3c-8efa44a8f3ac.jpg";
 
 const products = [
   {
@@ -11,7 +16,7 @@ const products = [
     price: 29990,
     rating: 4.9,
     reviews: 312,
-    img: HERO_IMG,
+    img: IMG_HEADPHONES,
     specs: { "Тип": "Накладные, BT", "АКБ": "30 ч", "ANC": "Есть", "Вес": "250 г" },
   },
   {
@@ -21,7 +26,7 @@ const products = [
     price: 129990,
     rating: 4.8,
     reviews: 218,
-    img: HERO_IMG,
+    img: IMG_LAPTOP,
     specs: { "Дисплей": "13.6\" Liquid Retina", "Процессор": "Apple M3", "ОЗУ": "8 GB", "SSD": "256 GB" },
   },
   {
@@ -31,7 +36,7 @@ const products = [
     price: 74990,
     rating: 4.7,
     reviews: 489,
-    img: HERO_IMG,
+    img: IMG_PHONE,
     specs: { "Дисплей": "6.2\" AMOLED", "Процессор": "Snapdragon 8 Gen 3", "ОЗУ": "8 GB", "АКБ": "4000 mAh" },
   },
   {
@@ -41,7 +46,7 @@ const products = [
     price: 99990,
     rating: 4.9,
     reviews: 156,
-    img: HERO_IMG,
+    img: IMG_TABLET,
     specs: { "Дисплей": "12.9\" Mini-LED", "Процессор": "Apple M4", "ОЗУ": "8 GB", "Камера": "12 Мп" },
   },
   {
@@ -51,7 +56,7 @@ const products = [
     price: 8990,
     rating: 4.8,
     reviews: 743,
-    img: HERO_IMG,
+    img: IMG_MOUSE,
     specs: { "Тип": "Беспроводная", "ДПИ": "8000", "АКБ": "70 дн.", "Кнопки": "7" },
   },
   {
@@ -61,7 +66,7 @@ const products = [
     price: 49990,
     rating: 4.6,
     reviews: 94,
-    img: HERO_IMG,
+    img: IMG_MONITOR,
     specs: { "Дисплей": "34\" IPS", "Разрешение": "3440×1440", "Герцовка": "144 Гц", "HDR": "HDR10" },
   },
 ];
